@@ -265,6 +265,21 @@ Swagger provides interactive API documentation and testing.
 
 ---
 
+
+## Scalability Considerations
+
+This application follows a modular architecture with separate layers for routes, controllers, middleware, and models, making it easier to scale and maintain.
+
+Future scalability improvements include:
+
+* Microservices architecture for authentication and task management services.
+* Redis caching to reduce database load for frequently accessed data.
+* Load balancing using Nginx or cloud load balancers.
+* Containerization using Docker and orchestration with Kubernetes.
+* Horizontal scaling of backend instances behind a load balancer.
+* Database indexing and optimization for large datasets.
+
+
 ## Author
 
 Shimpi Rajawat
